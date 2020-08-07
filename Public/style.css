@@ -1,0 +1,70 @@
+body {
+    background-color: orange;
+    background-image: url("/public/burger.jpg");
+    text-decoration-color: aliceblue;
+    display: inline;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: bolder;
+    font-size: 2.5em;
+    text-decoration-color: aliceblue;
+  }
+  
+  p {
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    font-weight: bold;
+    text-decoration-color: aliceblue;
+  }
+  
+  #burgers_list {
+    float: left;
+    margin-right: 10%;
+    margin-left: 18%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+    text-decoration-color: aliceblue;
+  }
+  
+  
+  
+  #dev_burger {
+    /* border: solid 2px blue; */
+    float: right;
+    margin-right: 20%;
+    margin-left: 5%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5em;
+    text-decoration-color: aliceblue;
+  }
+  
+  #add {
+    clear: both;
+    text-align: center;
+    /* border: solid 3px green; */
+    font-family: 'Architects Daughter', cursive;
+    text-decoration-color: aliceblue;
+  }
+  
+  #enter_text {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+  }
+  
+  .btn {
+    font-family: 'Handlee', cursive;
+    color: blueviolet;
+    background-color: orange;
+  }
+  
