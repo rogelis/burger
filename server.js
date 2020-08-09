@@ -22,7 +22,7 @@ app.set('view engine','handlebars');
 var routes = require('./controllers/brgrcontrol.js');
 app.use('/', routes);
 
-var port = 3000;
-app.listen(port, () => {
-  console.log(`Listening at http://localhost:${port}`)
-})
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+});
